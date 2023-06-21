@@ -1,0 +1,14 @@
+.DS_Store
+.envrc
+.gobuild
+bin
+logs
+vendor/
+.idea/
+deps/
+.vscode/
+**/*.enterprise.go
+**/enterprise/**
+enterprise.mk
+local/
+tools/codegen/boilerplate.go.txt

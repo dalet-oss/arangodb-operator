@@ -1,0 +1,4 @@
+apiVersion: v2
+description: ArangoDB Kubernetes Operator
+name: arangodb
+version: 1.2.30

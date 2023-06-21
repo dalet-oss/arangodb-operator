@@ -1,0 +1,8 @@
+apiVersion: "database.arangodb.com/v1"
+kind: "ArangoDeployment"
+metadata:
+  name: "example-simple-single-no-auth"
+spec:
+  mode: Single
+  auth:
+    jwtSecretName: None

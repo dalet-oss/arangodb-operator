@@ -1,0 +1,90 @@
+{{- $root := . -}}
+//
+// Copyright 2016-2023 ArangoDB GmbH, Cologne, Germany
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+// http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+// Copyright holder is ArangoDB GmbH, Cologne, Germany
+//
+
+package v1
+
+import "time"
+
+const (
+    // Timeouts
+
+    // ActionsDefaultTimeout define default timeout
+    ActionsDefaultTimeout time.Duration = {{ $root.defaultTimeout }}
+{{- range .actions }}
+    // Action{{ . }}DefaultTimeout define default timeout for action Action{{ . }}
+    Action{{ . }}DefaultTimeout time.Duration = {{ index $root.timeouts . }}
+{{- end }}
+
+    // Actions
+{{ range .actions }}
+    // ActionType{{ . }} in scopes {{ index $root.scopes . }}. {{ index $root.descriptions . }}
+    ActionType{{ . }} ActionType = "{{ . }}"
+{{- end }}
+)
+
+func (a ActionType) DefaultTimeout() time.Duration {
+    switch a {
+{{- range .actions }}
+        case ActionType{{ . }}:
+            return Action{{ . }}DefaultTimeout
+{{- end }}
+        default:
+            return ActionsDefaultTimeout
+    }
+}
+
+// Priority returns action priority
+func (a ActionType) Priority() ActionPriority {
+    switch a {
+{{- range .actions }}
+        case ActionType{{ . }}:
+            return ActionPriority{{ index $root.highestScopes . }}
+{{- end }}
+        default:
+            return ActionPriorityUnknown
+    }
+}
+
+// Internal returns true if action is considered to be internal
+func (a ActionType) Internal() bool {
+    switch a {
+{{- range $key, $value := .internal }}
+        case ActionType{{ $key }}:
+            return true
+{{- end }}
+        default:
+            return false
+    }
+}
+
+// Optional returns true if action execution wont abort Plan
+func (a ActionType) Optional() bool {
+    switch a {
+{{- range $key, $value := .optionals }}
+        case ActionType{{ $key }}:
+{{- if $value }}
+          return true
+{{- else }}
+          return false
+{{- end }}
+{{- end }}
+        default:
+            return false
+    }
+}
