@@ -27,7 +27,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/arangodb/kube-arangodb/pkg/debug_package"
+	"github.com/dalet-oss/arangodb-operator/pkg/debug_package"
 )
 
 func init() {

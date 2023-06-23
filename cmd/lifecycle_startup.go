@@ -28,7 +28,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
 )
 
 var cmdLifecycleStartup = &cobra.Command{
