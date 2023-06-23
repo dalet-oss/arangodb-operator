@@ -25,7 +25,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 func init() {

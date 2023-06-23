@@ -1,4 +1,4 @@
-module github.com/arangodb/kube-arangodb
+module github.com/dalet-oss/arangodb-operator
 
 go 1.19
 
@@ -16,7 +16,6 @@ replace (
 	k8s.io/client-go => k8s.io/client-go v0.22.15
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.22.15
 	k8s.io/cluster-bootstrap => k8s.io/cluster-bootstrap v0.22.15
-	k8s.io/code-generator => ./deps/k8s.io/code-generator
 	k8s.io/component-base => k8s.io/component-base v0.22.15
 	k8s.io/kubernetes => k8s.io/kubernetes v0.22.15
 	k8s.io/metrics => k8s.io/metrics v0.22.15

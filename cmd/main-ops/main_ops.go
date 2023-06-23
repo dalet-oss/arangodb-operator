@@ -23,7 +23,7 @@ package main
 import (
 	"os"
 
-	"github.com/arangodb/kube-arangodb/cmd"
+	"github.com/dalet-oss/arangodb-operator/cmd"
 )
 
 func main() {

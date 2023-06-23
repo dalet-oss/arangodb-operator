@@ -28,10 +28,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner"
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner/service"
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner/service"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 var (

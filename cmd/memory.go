@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/shutdown"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/shutdown"
 )
 
 func monitorMemoryLimit() {
