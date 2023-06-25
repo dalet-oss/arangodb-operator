@@ -21,8 +21,8 @@
 package v1
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/strings"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/strings"
 )
 
 // DeploymentStatus contains the status part of a Cluster resource.

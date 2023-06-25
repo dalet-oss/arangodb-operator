@@ -27,8 +27,8 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 type ConnectionWrap func(c driver.Connection) driver.Connection

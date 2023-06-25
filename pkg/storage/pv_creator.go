@@ -37,16 +37,16 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/features"
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner"
-	resources "github.com/arangodb/kube-arangodb/pkg/storage/resources"
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/storage/v1alpha"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/features"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner"
+	resources "github.com/dalet-oss/arangodb-operator/pkg/storage/resources"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
 )
 
 const (

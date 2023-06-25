@@ -25,10 +25,10 @@ import (
 
 	driver "github.com/arangodb/go-driver"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/agency/state"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
 )
 
 // newCleanOutMemberAction creates a new Action that implements the given

@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 func Test_Logger(t *testing.T) {

@@ -23,12 +23,12 @@ package backup
 import (
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/backup"
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	arangoClientSet "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned"
-	arangoInformer "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions"
-	operator "github.com/arangodb/kube-arangodb/pkg/operatorV2"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/event"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/backup"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	arangoClientSet "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned"
+	arangoInformer "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions"
+	operator "github.com/dalet-oss/arangodb-operator/pkg/operatorV2"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/event"
 )
 
 func newEventInstance(recorder event.Recorder) event.RecorderInstance {

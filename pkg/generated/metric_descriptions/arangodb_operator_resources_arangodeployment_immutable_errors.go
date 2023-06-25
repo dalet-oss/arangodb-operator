@@ -20,7 +20,7 @@
 
 package metric_descriptions
 
-import "github.com/arangodb/kube-arangodb/pkg/util/metrics"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 
 var (
 	arangodbOperatorResourcesArangodeploymentImmutableErrors = metrics.NewDescription("arangodb_operator_resources_arangodeployment_immutable_errors", "Counter for deployment immutable errors", []string{`namespace`, `name`}, nil)

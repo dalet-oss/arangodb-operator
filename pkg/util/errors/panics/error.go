@@ -23,8 +23,8 @@ package panics
 import (
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 type PanicErrorDetails struct {

@@ -26,8 +26,8 @@ import (
 	"github.com/rs/zerolog"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 var reconcileLogger = logging.Global().RegisterAndGetLogger("deployment-reconcile", logging.Info)

@@ -28,7 +28,7 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	typedCore "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/storage/utils"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/utils"
 )
 
 type Nodes []*core.Node

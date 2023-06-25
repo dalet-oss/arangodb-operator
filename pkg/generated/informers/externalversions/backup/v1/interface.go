@@ -23,7 +23,7 @@
 package v1
 
 import (
-	internalinterfaces "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	agencyCache "github.com/arangodb/kube-arangodb/pkg/deployment/agency/cache"
+	agencyCache "github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/cache"
 )
 
 func InvalidateOnErrorLoader[T interface{}](loader agencyCache.StateLoader[T]) agencyCache.StateLoader[T] {

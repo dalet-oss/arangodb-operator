@@ -25,8 +25,8 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	deployment "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/utils"
+	deployment "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/utils"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

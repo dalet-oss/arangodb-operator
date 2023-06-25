@@ -23,8 +23,8 @@ package features
 import (
 	"github.com/arangodb/go-driver"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 const (

@@ -28,9 +28,9 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/utils"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/utils"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func (h *handler) finalize(backup *backupApi.ArangoBackup) error {

@@ -21,7 +21,7 @@
 package v2alpha1
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // MemberStatusFunc is a callback which is used to traverse a specific group of servers and check their status.

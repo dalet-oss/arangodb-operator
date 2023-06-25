@@ -27,7 +27,7 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 func NewClient(c driver.Connection, log logging.Logger) Client {

@@ -26,10 +26,10 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/generated/metric_descriptions"
-	"github.com/arangodb/kube-arangodb/pkg/metrics/collector"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/metric_descriptions"
+	"github.com/dalet-oss/arangodb-operator/pkg/metrics/collector"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 )
 
 func init() {

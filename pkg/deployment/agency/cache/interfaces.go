@@ -24,7 +24,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
 )
 
 type LeaderDiscovery interface {

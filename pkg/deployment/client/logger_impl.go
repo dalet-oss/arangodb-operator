@@ -25,7 +25,7 @@ import (
 
 	"github.com/arangodb/go-driver/util/connection/wrappers"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 func newClientLogger(log logging.Logger) wrappers.Logger {

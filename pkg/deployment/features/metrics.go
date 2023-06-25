@@ -21,7 +21,7 @@
 package features
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 func init() {

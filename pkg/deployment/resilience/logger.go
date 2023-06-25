@@ -23,7 +23,7 @@ package resilience
 import (
 	"github.com/rs/zerolog"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 var (

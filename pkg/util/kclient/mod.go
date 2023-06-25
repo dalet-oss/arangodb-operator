@@ -21,14 +21,14 @@
 package kclient
 
 import (
-	arangomemberv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/arangomember/v1"
-	persistentvolumeclaimv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/persistentvolumeclaim/v1"
-	podv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/pod/v1"
-	poddisruptionbudgetv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/poddisruptionbudget/v1"
-	secretv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret/v1"
-	servicev1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/service/v1"
-	serviceaccountv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/serviceaccount/v1"
-	servicemonitorv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/servicemonitor/v1"
+	arangomemberv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/arangomember/v1"
+	persistentvolumeclaimv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/persistentvolumeclaim/v1"
+	podv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/pod/v1"
+	poddisruptionbudgetv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/poddisruptionbudget/v1"
+	secretv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret/v1"
+	servicev1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/service/v1"
+	serviceaccountv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/serviceaccount/v1"
+	servicemonitorv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/servicemonitor/v1"
 )
 
 func NewModInterface(client Client, namespace string) ModInterface {

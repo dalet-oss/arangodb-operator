@@ -21,7 +21,7 @@
 package v1
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // DeploymentMode specifies the type of ArangoDB deployment to create.

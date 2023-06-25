@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 func TestLicenseSpecValidation(t *testing.T) {

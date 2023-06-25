@@ -26,8 +26,8 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
-	"github.com/arangodb/kube-arangodb/pkg/server"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/storage/v1alpha"
+	"github.com/dalet-oss/arangodb-operator/pkg/server"
 )
 
 // Name returns the name of the local storage resource

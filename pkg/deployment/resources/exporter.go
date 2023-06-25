@@ -23,11 +23,11 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/probes"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/probes"
 )
 
 func createInternalExporterArgs(spec api.DeploymentSpec, groupSpec api.ServerGroupSpec, version driver.Version) []string {

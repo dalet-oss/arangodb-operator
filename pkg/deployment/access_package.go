@@ -31,11 +31,11 @@ import (
 
 	certificates "github.com/arangodb-helper/go-certificates"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
 )
 
 const (

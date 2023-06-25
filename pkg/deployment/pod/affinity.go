@@ -24,10 +24,10 @@ import (
 	core "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/interfaces"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/interfaces"
 )
 
 func AppendPodAntiAffinityDefault(p interfaces.PodCreator, a *core.PodAntiAffinity) {

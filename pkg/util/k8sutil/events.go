@@ -30,7 +30,7 @@ import (
 	driver "github.com/arangodb/go-driver"
 	upgraderules "github.com/arangodb/go-upgrade-rules"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/strings"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/strings"
 )
 
 // Event is used to create events using an EventRecorder.

@@ -31,10 +31,10 @@ import (
 	"github.com/arangodb/arangosync-client/client"
 	"github.com/arangodb/arangosync-client/tasks"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // createSyncMasterClient creates an arangosync client for the given endpoint.

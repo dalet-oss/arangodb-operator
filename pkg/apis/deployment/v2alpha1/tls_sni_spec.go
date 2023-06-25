@@ -21,8 +21,8 @@
 package v2alpha1
 
 import (
-	shared "github.com/arangodb/kube-arangodb/pkg/apis/shared/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	shared "github.com/dalet-oss/arangodb-operator/pkg/apis/shared/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // TLSSNISpec holds TLS SNI additional certificates

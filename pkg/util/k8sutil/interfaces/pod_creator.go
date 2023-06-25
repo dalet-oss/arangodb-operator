@@ -25,8 +25,8 @@ import (
 
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/service"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/service"
 )
 
 type Inspector interface {

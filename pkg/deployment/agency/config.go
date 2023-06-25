@@ -24,8 +24,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func GetAgencyConfig(ctx context.Context, connection conn.Connection) (*Config, error) {

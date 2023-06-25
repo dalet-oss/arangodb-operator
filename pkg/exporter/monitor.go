@@ -35,9 +35,9 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
 )
 
 const (

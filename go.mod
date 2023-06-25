@@ -61,6 +61,7 @@ require (
 
 require (
 	github.com/arangodb/go-velocypack v0.0.0-20200318135517-5af53c29c67e // indirect
+	github.com/arangodb/kube-arangodb v0.0.0-20230620071123-c0afad6e7f39 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect

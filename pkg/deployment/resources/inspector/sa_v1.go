@@ -27,9 +27,9 @@ import (
 	apiErrors "k8s.io/apimachinery/pkg/api/errors"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
-	ins "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/serviceaccount/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
+	ins "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/serviceaccount/v1"
 )
 
 func (p *serviceAccountsInspector) V1() ins.Inspector {

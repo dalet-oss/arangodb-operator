@@ -25,13 +25,13 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/arangodb/kube-arangodb/pkg/apis/apps/v1"
-	backupv1 "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	deploymentv1 "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	v2alpha1 "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v2alpha1"
-	replicationv1 "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	replicationv2alpha1 "github.com/arangodb/kube-arangodb/pkg/apis/replication/v2alpha1"
-	v1alpha "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
+	v1 "github.com/dalet-oss/arangodb-operator/pkg/apis/apps/v1"
+	backupv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	deploymentv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	v2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v2alpha1"
+	replicationv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	replicationv2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v2alpha1"
+	v1alpha "github.com/dalet-oss/arangodb-operator/pkg/apis/storage/v1alpha"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

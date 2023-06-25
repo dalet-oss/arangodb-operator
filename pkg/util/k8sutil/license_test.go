@@ -32,9 +32,9 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
-	"github.com/arangodb/kube-arangodb/pkg/util/tests"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/tests"
 )
 
 func encodeLicenseKey(in string) string {

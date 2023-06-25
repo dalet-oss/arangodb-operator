@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/arangodb/kube-arangodb/pkg/generated/metric_descriptions"
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/metric_descriptions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 )
 
 const (

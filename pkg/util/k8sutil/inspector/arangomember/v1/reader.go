@@ -21,8 +21,8 @@
 package v1
 
 import (
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
 )
 
 // ModInterface has methods to work with ArangoMember resources only for creation

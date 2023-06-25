@@ -20,7 +20,7 @@
 
 package v2alpha1
 
-import "github.com/arangodb/kube-arangodb/pkg/util/errors"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 
 var (
 	// ValidationError indicates a validation failure

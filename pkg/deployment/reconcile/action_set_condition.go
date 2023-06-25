@@ -24,7 +24,7 @@ import (
 	"context"
 	"strconv"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 )
 
 func newSetConditionAction(action api.Action, actionCtx ActionContext) Action {

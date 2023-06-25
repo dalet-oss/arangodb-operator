@@ -24,12 +24,12 @@ import (
 	kwatch "k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/tools/cache"
 
-	replication2 "github.com/arangodb/kube-arangodb/pkg/apis/replication"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	"github.com/arangodb/kube-arangodb/pkg/metrics"
-	"github.com/arangodb/kube-arangodb/pkg/replication"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	replication2 "github.com/dalet-oss/arangodb-operator/pkg/apis/replication"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/replication"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 var (

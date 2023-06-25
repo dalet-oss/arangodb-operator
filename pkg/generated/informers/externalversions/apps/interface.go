@@ -23,8 +23,8 @@
 package apps
 
 import (
-	v1 "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/apps/v1"
-	internalinterfaces "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
+	v1 "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions/apps/v1"
+	internalinterfaces "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

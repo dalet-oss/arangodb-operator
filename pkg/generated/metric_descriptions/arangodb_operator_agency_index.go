@@ -20,7 +20,7 @@
 
 package metric_descriptions
 
-import "github.com/arangodb/kube-arangodb/pkg/util/metrics"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 
 var (
 	arangodbOperatorAgencyIndex = metrics.NewDescription("arangodb_operator_agency_index", "Current index of the agency cache", []string{`namespace`, `name`}, nil)

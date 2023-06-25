@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/require"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func Test_Finalizer_PassThru(t *testing.T) {

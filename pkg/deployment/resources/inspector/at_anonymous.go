@@ -23,9 +23,9 @@ package inspector
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/anonymous"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/anonymous"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
 )
 
 func (p *arangoTasksInspector) Anonymous(gvk schema.GroupVersionKind) (anonymous.Interface, bool) {

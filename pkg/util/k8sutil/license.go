@@ -24,10 +24,10 @@ import (
 	"encoding/base64"
 	"encoding/json"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret"
 )
 
 type License string

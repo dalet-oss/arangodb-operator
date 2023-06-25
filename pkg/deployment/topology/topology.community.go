@@ -24,7 +24,7 @@ package topology
 import (
 	core "k8s.io/api/core/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 )
 
 func GetTopologyAffinityRules(name string, status api.DeploymentStatus, group api.ServerGroup, member api.MemberStatus) core.Affinity {

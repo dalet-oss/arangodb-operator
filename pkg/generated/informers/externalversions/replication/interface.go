@@ -23,9 +23,9 @@
 package replication
 
 import (
-	internalinterfaces "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
-	v1 "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/replication/v1"
-	v2alpha1 "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/replication/v2alpha1"
+	internalinterfaces "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions/internalinterfaces"
+	v1 "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions/replication/v1"
+	v2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/generated/informers/externalversions/replication/v2alpha1"
 )
 
 // Interface provides access to each of this group's versions.

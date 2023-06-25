@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/generated/timezones"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/timezones"
 )
 
 func Test_Timezone_Default(t *testing.T) {

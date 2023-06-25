@@ -23,8 +23,8 @@ package operator
 import (
 	"sort"
 
-	"github.com/arangodb/kube-arangodb/pkg/server"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/server"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // DeploymentOperator provides access to the deployment operator.

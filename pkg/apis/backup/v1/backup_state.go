@@ -23,7 +23,7 @@ package v1
 import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/handlers/backup/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/backup/state"
 )
 
 const (

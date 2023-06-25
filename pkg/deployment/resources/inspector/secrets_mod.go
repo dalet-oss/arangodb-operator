@@ -23,11 +23,11 @@ package inspector
 import (
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/mods"
-	secretv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/mods"
+	secretv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret/v1"
 )
 
 func (i *inspectorState) SecretsModInterface() mods.SecretsMods {

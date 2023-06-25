@@ -25,10 +25,10 @@ import (
 
 	core "k8s.io/api/core/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/resources"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/topology"
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/resources"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/topology"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
 )
 
 func compareServerContainerEnvs(ds api.DeploymentSpec, g api.ServerGroup, spec, status *core.Container) comparePodContainerFunc {

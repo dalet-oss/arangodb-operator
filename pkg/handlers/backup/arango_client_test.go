@@ -29,7 +29,7 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func Test_Errors_Temporary(t *testing.T) {

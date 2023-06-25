@@ -24,7 +24,7 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func newResourceEventHandler(operator Operator, group, version, kind string) cache.ResourceEventHandler {

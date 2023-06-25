@@ -20,7 +20,7 @@
 
 package metric_descriptions
 
-import "github.com/arangodb/kube-arangodb/pkg/util/metrics"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 
 var (
 	arangodbOperatorAgencyErrors = metrics.NewDescription("arangodb_operator_agency_errors", "Current count of agency cache fetch errors", []string{`namespace`, `name`}, nil)

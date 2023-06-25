@@ -23,8 +23,8 @@ package replication
 import (
 	"context"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 type serverEndpoint struct {

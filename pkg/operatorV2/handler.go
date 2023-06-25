@@ -20,7 +20,7 @@
 
 package operator
 
-import "github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+import "github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 
 // Handler define interface for operator actions
 type Handler interface {

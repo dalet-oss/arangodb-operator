@@ -21,7 +21,7 @@
 
 package topology
 
-import api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+import api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 
 func WithTopologyMod(s *api.DeploymentStatus, g api.ServerGroup, m *api.MemberStatus) error {
 	return nil

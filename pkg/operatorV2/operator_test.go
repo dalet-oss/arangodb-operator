@@ -33,7 +33,7 @@ import (
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func Test_Operator_InformerProcessing(t *testing.T) {

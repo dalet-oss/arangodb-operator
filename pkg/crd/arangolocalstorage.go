@@ -20,7 +20,7 @@
 
 package crd
 
-import "github.com/arangodb/kube-arangodb/pkg/crd/crds"
+import "github.com/dalet-oss/arangodb-operator/pkg/crd/crds"
 
 func init() {
 	registerCRDWithPanic(crds.StorageLocalStorageDefinition())

@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"time"
 
-	operatorHTTP "github.com/arangodb/kube-arangodb/pkg/util/http"
+	operatorHTTP "github.com/dalet-oss/arangodb-operator/pkg/util/http"
 )
 
 type Authentication func() (string, error)

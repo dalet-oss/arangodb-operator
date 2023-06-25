@@ -30,12 +30,12 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
-	"github.com/arangodb/kube-arangodb/pkg/util/trigger"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/trigger"
 )
 
 var pcLogger = logging.Global().RegisterAndGetLogger("deployment-storage-pc", logging.Info)

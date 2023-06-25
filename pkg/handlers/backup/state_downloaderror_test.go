@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func Test_State_DownloadError_Reschedule(t *testing.T) {

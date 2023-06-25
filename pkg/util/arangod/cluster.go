@@ -25,7 +25,7 @@ import (
 
 	driver "github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // NumberOfServers is the JSON structure return for the numberOfServers API call.

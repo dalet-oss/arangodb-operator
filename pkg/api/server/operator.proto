@@ -20,7 +20,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/arangodb/kube-arangodb/pkg/api/server";
+option go_package = "github.com/dalet-oss/arangodb-operator/pkg/api/server";
 
 package server;
 

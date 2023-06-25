@@ -21,8 +21,8 @@
 package upgrade
 
 import (
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/interfaces"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/interfaces"
 )
 
 func newUpgrade(version api.Version, u func(obj api.ArangoDeployment, status *api.DeploymentStatus, cache interfaces.Inspector) error) Upgrade {

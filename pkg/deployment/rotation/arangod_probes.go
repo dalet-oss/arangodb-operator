@@ -24,7 +24,7 @@ import (
 	core "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/equality"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 )
 
 func compareServerContainerProbes(ds api.DeploymentSpec, g api.ServerGroup, spec, status *core.Container) comparePodContainerFunc {

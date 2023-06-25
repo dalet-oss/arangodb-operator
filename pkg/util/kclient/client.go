@@ -27,7 +27,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 const Kubeconfig util.EnvironmentVariable = "KUBECONFIG"

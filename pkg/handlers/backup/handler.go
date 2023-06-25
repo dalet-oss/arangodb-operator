@@ -34,17 +34,17 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/backup"
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	database "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	arangoClientSet "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/utils"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	operator "github.com/arangodb/kube-arangodb/pkg/operatorV2"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/event"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/backup"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	database "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	arangoClientSet "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/utils"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	operator "github.com/dalet-oss/arangodb-operator/pkg/operatorV2"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/event"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 var logger = logging.Global().RegisterAndGetLogger("backup-operator", logging.Info)

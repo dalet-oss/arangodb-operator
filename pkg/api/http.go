@@ -26,11 +26,11 @@ import (
 	"github.com/gin-gonic/gin"
 	prometheus "github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	operatorHTTP "github.com/arangodb/kube-arangodb/pkg/util/http"
-	"github.com/arangodb/kube-arangodb/pkg/util/probe"
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	operatorHTTP "github.com/dalet-oss/arangodb-operator/pkg/util/http"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/probe"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 func buildHTTPHandler(s *Server, cfg ServerConfig, auth *authorization) (http.Handler, error) {

@@ -28,10 +28,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/arangodb/kube-arangodb/pkg/debug_package/cli"
-	"github.com/arangodb/kube-arangodb/pkg/debug_package/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/debug_package/cli"
+	"github.com/dalet-oss/arangodb-operator/pkg/debug_package/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 const LocalBinDir = "/usr/bin/arangodb_operator"

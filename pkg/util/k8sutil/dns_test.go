@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 // TestCreatePodDNSName tests CreatePodDNSName.

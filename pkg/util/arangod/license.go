@@ -20,7 +20,7 @@
 
 package arangod
 
-import api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+import api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 
 func GroupsWithLicenseV2() api.ServerGroups {
 	return api.ServerGroups{api.ServerGroupSingle, api.ServerGroupDBServers, api.ServerGroupCoordinators}

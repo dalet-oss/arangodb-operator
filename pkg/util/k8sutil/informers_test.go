@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/tests"
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/tests"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
 )
 
 type mockInformer struct {

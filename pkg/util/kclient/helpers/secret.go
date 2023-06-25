@@ -25,9 +25,9 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 func SecretConfigGetter(s secret.Inspector, name, key string) kclient.ConfigGetter {

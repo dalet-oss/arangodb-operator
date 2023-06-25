@@ -27,11 +27,11 @@ import (
 	monitoring "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/throttle"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/throttle"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/version"
 )
 
 func init() {

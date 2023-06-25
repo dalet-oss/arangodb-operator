@@ -29,7 +29,7 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 const prefixArg = "deployment.feature"

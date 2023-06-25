@@ -30,13 +30,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/backup"
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/deployment"
-	database "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	fakeClientSet "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/fake"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/event"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/backup"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/deployment"
+	database "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	fakeClientSet "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned/fake"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/event"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func newFakeHandler() *handler {

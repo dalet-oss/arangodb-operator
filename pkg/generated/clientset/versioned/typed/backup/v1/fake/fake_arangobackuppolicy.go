@@ -25,7 +25,7 @@ package fake
 import (
 	"context"
 
-	backupv1 "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
+	backupv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

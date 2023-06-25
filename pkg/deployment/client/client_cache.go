@@ -29,13 +29,13 @@ import (
 	driver "github.com/arangodb/go-driver"
 	"github.com/arangodb/go-driver/agency"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/reconciler"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/utils"
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/reconciler"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/utils"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 type Cache interface {

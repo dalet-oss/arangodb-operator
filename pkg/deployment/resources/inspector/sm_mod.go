@@ -23,11 +23,11 @@ package inspector
 import (
 	monitoring "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/mods"
-	servicemonitorv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/servicemonitor/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/mods"
+	servicemonitorv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/servicemonitor/v1"
 )
 
 func (i *inspectorState) ServiceMonitorsModInterface() mods.ServiceMonitorsMods {

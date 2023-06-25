@@ -23,8 +23,8 @@ package backup
 import (
 	"github.com/arangodb/go-driver"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
 )
 
 func stateReadyHandler(h *handler, backup *backupApi.ArangoBackup) (*backupApi.ArangoBackupStatus, error) {

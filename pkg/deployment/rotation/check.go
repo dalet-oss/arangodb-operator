@@ -25,11 +25,11 @@ import (
 
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/deployment"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/acs/sutil"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/utils"
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/deployment"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/acs/sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/utils"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
 )
 
 type Mode int

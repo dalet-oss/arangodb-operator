@@ -20,7 +20,7 @@
 
 package rotation
 
-import "github.com/arangodb/kube-arangodb/pkg/logging"
+import "github.com/dalet-oss/arangodb-operator/pkg/logging"
 
 var (
 	logger = logging.Global().RegisterAndGetLogger("pod_compare", logging.Info)

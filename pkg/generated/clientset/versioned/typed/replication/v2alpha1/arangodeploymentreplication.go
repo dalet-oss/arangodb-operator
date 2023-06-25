@@ -26,8 +26,8 @@ import (
 	"context"
 	"time"
 
-	v2alpha1 "github.com/arangodb/kube-arangodb/pkg/apis/replication/v2alpha1"
-	scheme "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/scheme"
+	v2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v2alpha1"
+	scheme "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

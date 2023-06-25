@@ -20,7 +20,7 @@
 
 package deployment
 
-import api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+import api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 
 func RecoverPodDetails(in *api.DeploymentStatus) (changed bool, _ error) {
 	changed = false

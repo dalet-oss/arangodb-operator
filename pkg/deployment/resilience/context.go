@@ -21,7 +21,7 @@
 package resilience
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/deployment/reconciler"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/reconciler"
 )
 
 // Context provides methods to the resilience package.

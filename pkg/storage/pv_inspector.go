@@ -29,10 +29,10 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/deployment/features"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/patch"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/features"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/patch"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // inspectPVs queries all PersistentVolume's and triggers a cleanup for

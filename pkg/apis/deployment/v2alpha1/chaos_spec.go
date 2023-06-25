@@ -23,8 +23,8 @@ package v2alpha1
 import (
 	time "time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // ChaosSpec holds configuration for the deployment chaos monkey.

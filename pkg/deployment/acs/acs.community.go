@@ -26,10 +26,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/acs/sutil"
-	inspectorInterface "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/acs/sutil"
+	inspectorInterface "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 func NewACS(main types.UID, cache inspectorInterface.Inspector) sutil.ACS {

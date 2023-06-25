@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/tests"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/tests"
 )
 
 func Test_Panic(t *testing.T) {

@@ -31,13 +31,13 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
-	servicev1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/service/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/patcher"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
+	servicev1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/service/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/patcher"
 )
 
 // CreateHeadlessServiceName returns the name of the headless service for the given

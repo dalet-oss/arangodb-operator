@@ -21,7 +21,7 @@
 package v2alpha1
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // Percent is a percentage between 0 and 100.

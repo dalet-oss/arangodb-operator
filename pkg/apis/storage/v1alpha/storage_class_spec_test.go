@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 // test creation of storage class spec

@@ -26,7 +26,7 @@ import (
 
 	"github.com/cenkalti/backoff"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 type permanentError struct {

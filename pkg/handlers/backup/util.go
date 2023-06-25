@@ -25,9 +25,9 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	clientBackup "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/typed/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/backup/state"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	clientBackup "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned/typed/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/backup/state"
 )
 
 type backupStates []*backupApi.ArangoBackup

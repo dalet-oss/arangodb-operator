@@ -28,10 +28,10 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	shared "github.com/arangodb/kube-arangodb/pkg/apis/shared/v1"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/backup/state"
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	shared "github.com/dalet-oss/arangodb-operator/pkg/apis/shared/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/backup/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 type updateStatusFunc func(status *backupApi.ArangoBackupStatus)

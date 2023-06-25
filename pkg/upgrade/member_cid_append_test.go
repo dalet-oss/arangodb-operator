@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"k8s.io/apimachinery/pkg/util/uuid"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 )
 
 func testMemberCIDAppendPrepare(t *testing.T, obj *api.ArangoDeployment) {

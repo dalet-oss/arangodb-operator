@@ -28,7 +28,7 @@ import (
 	"github.com/dchest/uniuri"
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
 )
 
 func NewAsyncHandler(t *testing.T, s Server, method string, path string, retCode int, ret interface{}) AsyncHandler {

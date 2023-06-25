@@ -27,8 +27,8 @@ import (
 	"github.com/rs/zerolog/log"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/apps"
-	operator "github.com/arangodb/kube-arangodb/pkg/operatorV2"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/apps"
+	operator "github.com/dalet-oss/arangodb-operator/pkg/operatorV2"
 )
 
 var _ operator.LifecyclePreStart = &handler{}

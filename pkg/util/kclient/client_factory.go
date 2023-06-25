@@ -30,7 +30,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned"
 )
 
 const (

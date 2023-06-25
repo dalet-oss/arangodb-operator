@@ -20,7 +20,7 @@
 
 package v1
 
-import "github.com/arangodb/kube-arangodb/pkg/util"
+import "github.com/dalet-oss/arangodb-operator/pkg/util"
 
 type ServerGroupStatus struct {
 	Index *int `json:"index,omitempty"`

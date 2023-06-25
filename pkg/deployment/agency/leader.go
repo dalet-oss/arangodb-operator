@@ -23,8 +23,8 @@ package agency
 import (
 	"context"
 
-	agencyCache "github.com/arangodb/kube-arangodb/pkg/deployment/agency/cache"
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
+	agencyCache "github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/cache"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
 )
 
 func StaticLeaderDiscovery(in conn.Connection) agencyCache.LeaderDiscovery {

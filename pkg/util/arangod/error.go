@@ -20,7 +20,7 @@
 
 package arangod
 
-import "github.com/arangodb/kube-arangodb/pkg/util/errors"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 
 var (
 	KeyNotFoundError = errors.New("Key not found")

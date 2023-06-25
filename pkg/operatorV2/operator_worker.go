@@ -21,8 +21,8 @@
 package operator
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func (o *operator) worker() {

@@ -28,13 +28,13 @@ import (
 
 	driver "github.com/arangodb/go-driver"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	memberState "github.com/arangodb/kube-arangodb/pkg/deployment/member"
-	"github.com/arangodb/kube-arangodb/pkg/metrics"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	inspectorInterface "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
-	arangomemberv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/arangomember/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	memberState "github.com/dalet-oss/arangodb-operator/pkg/deployment/member"
+	"github.com/dalet-oss/arangodb-operator/pkg/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	inspectorInterface "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
+	arangomemberv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/arangomember/v1"
 )
 
 const (

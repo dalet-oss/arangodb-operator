@@ -21,8 +21,8 @@
 package replication
 
 import (
-	api "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	"github.com/arangodb/kube-arangodb/pkg/server"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/server"
 )
 
 // Name returns the name of the deployment.

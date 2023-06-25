@@ -23,7 +23,7 @@ package operator
 import (
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/crd"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/crd"
 )
 
 // waitForCRD waits for the CustomResourceDefinition (created externally) to be ready.

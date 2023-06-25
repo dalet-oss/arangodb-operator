@@ -23,7 +23,7 @@ package metric_descriptions
 import (
 	"sync"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 )
 
 var (

@@ -20,7 +20,7 @@
 
 package v2alpha1
 
-import shared "github.com/arangodb/kube-arangodb/pkg/apis/shared/v1"
+import shared "github.com/dalet-oss/arangodb-operator/pkg/apis/shared/v1"
 
 type DeploymentStatusHashes struct {
 	Encryption DeploymentStatusHashesEncryption `json:"rocksDBEncryption,omitempty"`

@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 	apiErrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func Test_ObjectNotFound(t *testing.T) {

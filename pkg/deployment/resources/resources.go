@@ -23,9 +23,9 @@ package resources
 import (
 	"context"
 
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	errors "github.com/arangodb/kube-arangodb/pkg/util/errors"
-	inspectorInterface "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	errors "github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	inspectorInterface "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
 )
 
 // Resources is a service that creates low level resources for members

@@ -21,7 +21,7 @@
 package reconcile
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 var testLF = logging.NewDefaultFactory()

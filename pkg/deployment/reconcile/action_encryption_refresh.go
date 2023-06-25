@@ -25,10 +25,10 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/client"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/pod"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/client"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/pod"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
 )
 
 func newEncryptionKeyRefreshAction(action api.Action, actionCtx ActionContext) Action {

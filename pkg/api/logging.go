@@ -21,7 +21,7 @@
 package api
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
 )
 
 func (s *Server) getLogLevelsByTopics() map[string]logging.Level {

@@ -27,9 +27,9 @@ import (
 	"github.com/rs/zerolog/log"
 	core "k8s.io/api/core/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/actions"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/resources"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/actions"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/resources"
 )
 
 type comparePodFuncGen func(deploymentSpec api.DeploymentSpec, group api.ServerGroup, spec, status *core.PodSpec) comparePodFunc

@@ -28,12 +28,12 @@ import (
 	"github.com/arangodb/arangosync-client/client"
 	"github.com/arangodb/go-driver"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/acs/sutil"
-	agencyCache "github.com/arangodb/kube-arangodb/pkg/deployment/agency"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/agency/state"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/patch"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/acs/sutil"
+	agencyCache "github.com/dalet-oss/arangodb-operator/pkg/deployment/agency"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/patch"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // ServerGroupIterator provides a helper to callback on every server

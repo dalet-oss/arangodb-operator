@@ -29,15 +29,15 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/deployment"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/patch"
-	"github.com/arangodb/kube-arangodb/pkg/util/collection"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	inspectorInterface "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/tools"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/deployment"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/patch"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/collection"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	inspectorInterface "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/tools"
 )
 
 type PatchFunc func(name string, d []byte) error

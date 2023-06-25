@@ -29,10 +29,10 @@ import (
 	authorization "k8s.io/api/authorization/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/crd/crds"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
-	"github.com/arangodb/kube-arangodb/pkg/util/tests"
+	"github.com/dalet-oss/arangodb-operator/pkg/crd/crds"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/tests"
 )
 
 func dropLogMessages(t *testing.T, s tests.LogScanner) map[string]string {

@@ -24,11 +24,11 @@ import (
 	"context"
 	"time"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/actions"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/features"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/actions"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/features"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 var lastTriggeredRebuildOutSyncedShards time.Time

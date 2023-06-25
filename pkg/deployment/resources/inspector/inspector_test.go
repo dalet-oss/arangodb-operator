@@ -27,10 +27,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/refresh"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/throttle"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/refresh"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/throttle"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 type loaderTestDefinition struct {

@@ -23,7 +23,7 @@ package k8sutil
 import (
 	"testing"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
 )
 
 func TestValidateResourceName(t *testing.T) {

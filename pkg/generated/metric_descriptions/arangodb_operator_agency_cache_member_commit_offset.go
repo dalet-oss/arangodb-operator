@@ -20,7 +20,7 @@
 
 package metric_descriptions
 
-import "github.com/arangodb/kube-arangodb/pkg/util/metrics"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 
 var (
 	arangodbOperatorAgencyCacheMemberCommitOffset = metrics.NewDescription("arangodb_operator_agency_cache_member_commit_offset", "Determines agency member commit offset", []string{`namespace`, `name`, `agent`}, nil)

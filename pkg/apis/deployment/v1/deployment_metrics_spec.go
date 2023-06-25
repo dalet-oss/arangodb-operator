@@ -24,8 +24,8 @@ package v1
 import (
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 // MetricsAuthenticationSpec contains spec for authentication with arangodb

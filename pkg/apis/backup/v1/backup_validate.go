@@ -20,7 +20,7 @@
 
 package v1
 
-import "github.com/arangodb/kube-arangodb/pkg/util/errors"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 
 func (a *ArangoBackup) Validate() error {
 	if err := a.Spec.Validate(); err != nil {

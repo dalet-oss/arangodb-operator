@@ -29,9 +29,9 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 func Test_Scheduler_Schedule(t *testing.T) {

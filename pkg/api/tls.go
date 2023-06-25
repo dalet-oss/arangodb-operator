@@ -31,7 +31,7 @@ import (
 
 	"github.com/arangodb-helper/go-certificates"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func prepareTLSConfig(cli typedCore.CoreV1Interface, cfg ServerConfig) (*tls.Config, error) {

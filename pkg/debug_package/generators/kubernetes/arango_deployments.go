@@ -27,12 +27,12 @@ import (
 	"github.com/rs/zerolog"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/debug_package/cli"
-	"github.com/arangodb/kube-arangodb/pkg/debug_package/shared"
-	arangoClient "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/debug_package/cli"
+	"github.com/dalet-oss/arangodb-operator/pkg/debug_package/shared"
+	arangoClient "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 func Deployments() shared.Factory {

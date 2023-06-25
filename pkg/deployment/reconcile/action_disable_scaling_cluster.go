@@ -23,8 +23,8 @@ package reconcile
 import (
 	"context"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 // newDisableClusterScalingAction creates the new action with disabling scaling DBservers and coordinators.

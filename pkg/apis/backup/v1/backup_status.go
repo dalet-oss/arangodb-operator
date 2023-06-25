@@ -23,7 +23,7 @@ package v1
 import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	shared "github.com/arangodb/kube-arangodb/pkg/apis/shared/v1"
+	shared "github.com/dalet-oss/arangodb-operator/pkg/apis/shared/v1"
 )
 
 // ArangoBackupStatus contains the status part of

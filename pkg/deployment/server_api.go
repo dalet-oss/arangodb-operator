@@ -27,11 +27,11 @@ import (
 	core "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	memberState "github.com/arangodb/kube-arangodb/pkg/deployment/member"
-	"github.com/arangodb/kube-arangodb/pkg/server"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	memberState "github.com/dalet-oss/arangodb-operator/pkg/deployment/member"
+	"github.com/dalet-oss/arangodb-operator/pkg/server"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // Name returns the name of the deployment.

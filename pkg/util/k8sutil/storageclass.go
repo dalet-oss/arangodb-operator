@@ -29,9 +29,9 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	storagev1 "k8s.io/client-go/kubernetes/typed/storage/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
-	"github.com/arangodb/kube-arangodb/pkg/util/retry"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/retry"
 )
 
 var (

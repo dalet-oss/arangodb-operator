@@ -26,8 +26,8 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
 )
 
 func withMetrics[S meta.Object](definition definitions.Component, in generic.ClientStatusGetter[S]) generic.ClientStatusGetter[S] {

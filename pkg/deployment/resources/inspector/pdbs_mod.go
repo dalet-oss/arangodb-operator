@@ -23,11 +23,11 @@ package inspector
 import (
 	policy "k8s.io/api/policy/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/mods"
-	policyv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/poddisruptionbudget/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/mods"
+	policyv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/poddisruptionbudget/v1"
 )
 
 func (i *inspectorState) PodDisruptionBudgetsModInterface() mods.PodDisruptionBudgetsMods {

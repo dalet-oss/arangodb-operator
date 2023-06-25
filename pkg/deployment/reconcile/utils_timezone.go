@@ -21,10 +21,10 @@
 package reconcile
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/deployment/pod"
-	"github.com/arangodb/kube-arangodb/pkg/generated/timezones"
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	secretv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/pod"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/timezones"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	secretv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret/v1"
 )
 
 const defaultTimezone = "UTC"

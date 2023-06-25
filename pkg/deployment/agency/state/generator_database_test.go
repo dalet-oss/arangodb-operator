@@ -28,7 +28,7 @@ import (
 	"github.com/dchest/uniuri"
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 func NewDatabaseRandomGenerator() DatabaseGeneratorInterface {

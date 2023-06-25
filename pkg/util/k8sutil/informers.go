@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
 )
 
 type Informer interface {

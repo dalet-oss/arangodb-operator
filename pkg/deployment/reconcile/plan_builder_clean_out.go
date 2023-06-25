@@ -23,10 +23,10 @@ package reconcile
 import (
 	"context"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/agency/state"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/reconcile/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/reconcile/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // createCleanOutPlan creates clean out action if the server is cleaned out and the operator is not aware of it.

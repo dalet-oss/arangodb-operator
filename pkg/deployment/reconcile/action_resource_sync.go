@@ -20,7 +20,7 @@
 
 package reconcile
 
-import api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+import api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 
 func newResourceSyncAction(action api.Action, actionCtx ActionContext) Action {
 	a := &actionResourceSync{}

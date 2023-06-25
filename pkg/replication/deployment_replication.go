@@ -33,15 +33,15 @@ import (
 
 	"github.com/arangodb/arangosync-client/client"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
-	"github.com/arangodb/kube-arangodb/pkg/util/retry"
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
-	"github.com/arangodb/kube-arangodb/pkg/util/trigger"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/retry"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/trigger"
 )
 
 var logger = logging.Global().RegisterAndGetLogger("deployment-replication", logging.Info)

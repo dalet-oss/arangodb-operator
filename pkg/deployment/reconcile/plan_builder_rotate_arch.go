@@ -24,10 +24,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/deployment"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/actions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/deployment"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/actions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // createChangeMemberArchPlan goes over all pods to check if an Architecture type is set correctly

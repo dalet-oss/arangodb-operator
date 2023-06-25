@@ -23,8 +23,8 @@
 package v1alpha
 
 import (
-	v1alpha "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
-	"github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/scheme"
+	v1alpha "github.com/dalet-oss/arangodb-operator/pkg/apis/storage/v1alpha"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

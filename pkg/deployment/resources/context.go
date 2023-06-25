@@ -25,12 +25,12 @@ import (
 
 	core "k8s.io/api/core/v1"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/acs/sutil"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/member"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/reconciler"
-	"github.com/arangodb/kube-arangodb/pkg/operator/scope"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/acs/sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/member"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/reconciler"
+	"github.com/dalet-oss/arangodb-operator/pkg/operator/scope"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // Context provides all functions needed by the Resources service

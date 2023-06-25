@@ -23,7 +23,7 @@ package v2alpha1
 import (
 	"strings"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // StorageEngine specifies the type of storage engine used by the cluster

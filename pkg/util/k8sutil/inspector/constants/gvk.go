@@ -26,7 +26,7 @@ import (
 	policy "k8s.io/api/policy/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 )
 
 func ExtractGVKFromObject(in interface{}) (schema.GroupVersionKind, bool) {

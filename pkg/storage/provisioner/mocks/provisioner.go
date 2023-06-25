@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 type Provisioner interface {

@@ -26,8 +26,8 @@ import (
 
 	driver "github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
 )
 
 // IsDBServerEmpty checks if the dbserver identified by the given ID no longer has any

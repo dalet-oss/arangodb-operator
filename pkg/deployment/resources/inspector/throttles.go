@@ -23,7 +23,7 @@ package inspector
 import (
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/throttle"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/throttle"
 )
 
 func NewDefaultThrottle() throttle.Components {

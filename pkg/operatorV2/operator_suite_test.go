@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 const (

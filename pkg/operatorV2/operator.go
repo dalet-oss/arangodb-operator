@@ -29,8 +29,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // Starter interface used by Operator to start new GoRoutines

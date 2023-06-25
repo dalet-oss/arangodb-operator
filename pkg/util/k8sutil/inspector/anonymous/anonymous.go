@@ -24,7 +24,7 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
 )
 
 type Impl interface {

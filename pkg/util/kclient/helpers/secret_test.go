@@ -28,9 +28,9 @@ import (
 	core "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/deployment/resources/inspector"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/throttle"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/resources/inspector"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/throttle"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 func Test_SecretConfigGetter(t *testing.T) {

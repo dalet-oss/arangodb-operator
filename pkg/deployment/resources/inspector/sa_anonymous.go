@@ -24,9 +24,9 @@ import (
 	core "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/anonymous"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/anonymous"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
 )
 
 func (p *serviceAccountsInspector) Anonymous(gvk schema.GroupVersionKind) (anonymous.Interface, bool) {

@@ -23,9 +23,9 @@ package v2alpha1
 import (
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	sharedv1 "github.com/arangodb/kube-arangodb/pkg/apis/shared/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	sharedv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/shared/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 const (

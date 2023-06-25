@@ -28,7 +28,7 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics/nctx"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics/nctx"
 )
 
 func NewExecutor[IN, OUT interface{}](conn Connection) Executor[IN, OUT] {

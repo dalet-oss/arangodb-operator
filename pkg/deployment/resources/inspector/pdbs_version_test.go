@@ -28,9 +28,9 @@ import (
 	"github.com/stretchr/testify/require"
 	kversion "k8s.io/apimachinery/pkg/version"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/throttle"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/version"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/throttle"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 func Test_PDB_Versions(t *testing.T) {

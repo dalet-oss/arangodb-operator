@@ -28,18 +28,18 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/acs/sutil"
-	agencyCache "github.com/arangodb/kube-arangodb/pkg/deployment/agency"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/agency/state"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/member"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/reconciler"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	inspectorInterface "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/acs/sutil"
+	agencyCache "github.com/dalet-oss/arangodb-operator/pkg/deployment/agency"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/member"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/reconciler"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	inspectorInterface "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector"
 )
 
 // ActionContext provides methods to the Action implementations

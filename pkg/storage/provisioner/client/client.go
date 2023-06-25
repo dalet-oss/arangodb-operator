@@ -31,8 +31,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // New creates a new client for the provisioner API.

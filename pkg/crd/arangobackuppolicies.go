@@ -21,7 +21,7 @@
 package crd
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/crd/crds"
+	"github.com/dalet-oss/arangodb-operator/pkg/crd/crds"
 )
 
 func init() {

@@ -30,9 +30,9 @@ import (
 	"google.golang.org/grpc/credentials"
 	typedCore "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	pb "github.com/arangodb/kube-arangodb/pkg/api/server"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/probe"
+	pb "github.com/dalet-oss/arangodb-operator/pkg/api/server"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/probe"
 )
 
 var apiLogger = logging.Global().RegisterAndGetLogger("api-server", logging.Info)

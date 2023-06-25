@@ -30,16 +30,16 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/backup"
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	deployment "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	arangoClientSet "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned"
-	operator "github.com/arangodb/kube-arangodb/pkg/operatorV2"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/event"
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/backup"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	deployment "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	arangoClientSet "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned"
+	operator "github.com/dalet-oss/arangodb-operator/pkg/operatorV2"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/event"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 const (

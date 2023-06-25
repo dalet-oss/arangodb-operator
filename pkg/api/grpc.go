@@ -24,9 +24,9 @@ import (
 	"context"
 	"fmt"
 
-	pb "github.com/arangodb/kube-arangodb/pkg/api/server"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	pb "github.com/dalet-oss/arangodb-operator/pkg/api/server"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 func (s *Server) GetVersion(ctx context.Context, _ *pb.Empty) (*pb.Version, error) {

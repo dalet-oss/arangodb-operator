@@ -26,7 +26,7 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 type ObjectList[T meta.Object] map[types.UID]T

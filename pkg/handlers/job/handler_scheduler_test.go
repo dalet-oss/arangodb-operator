@@ -27,7 +27,7 @@ import (
 	batch "k8s.io/api/batch/v1"
 	"k8s.io/apimachinery/pkg/util/uuid"
 
-	"github.com/arangodb/kube-arangodb/pkg/operatorV2/operation"
+	"github.com/dalet-oss/arangodb-operator/pkg/operatorV2/operation"
 )
 
 func Test_Job_Create(t *testing.T) {

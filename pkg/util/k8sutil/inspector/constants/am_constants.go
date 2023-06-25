@@ -23,8 +23,8 @@ package constants
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/deployment"
-	deploymentv1 "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/deployment"
+	deploymentv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 )
 
 // ArangoMember

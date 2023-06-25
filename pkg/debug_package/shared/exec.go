@@ -27,7 +27,7 @@ import (
 	scheme2 "k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/tools/remotecommand"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
 )
 
 // ExecuteCommandInPod executes command in pod with the given pod name and namespace.

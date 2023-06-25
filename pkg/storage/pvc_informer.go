@@ -24,7 +24,7 @@ import (
 	core "k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 // listenForPvcEvents keep listening for changes in PVC's until the given channel is closed.

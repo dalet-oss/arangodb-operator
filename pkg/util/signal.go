@@ -23,7 +23,7 @@ package util
 import (
 	"context"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/shutdown"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/shutdown"
 )
 
 // CreateSignalContext creates and returns the context which is closed when one of the provided signal occurs.

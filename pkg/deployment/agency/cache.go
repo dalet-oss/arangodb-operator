@@ -27,15 +27,15 @@ import (
 
 	"github.com/rs/zerolog"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	agencyCache "github.com/arangodb/kube-arangodb/pkg/deployment/agency/cache"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/agency/state"
-	"github.com/arangodb/kube-arangodb/pkg/generated/metric_descriptions"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	agencyCache "github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/cache"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/agency/state"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/metric_descriptions"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 )
 
 type Connections map[string]conn.Connection

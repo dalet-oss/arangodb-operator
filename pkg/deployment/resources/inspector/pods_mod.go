@@ -23,11 +23,11 @@ package inspector
 import (
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/mods"
-	podv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/pod/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/mods"
+	podv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/pod/v1"
 )
 
 func (i *inspectorState) PodsModInterface() mods.PodsMods {

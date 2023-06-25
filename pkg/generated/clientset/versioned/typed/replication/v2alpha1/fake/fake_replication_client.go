@@ -23,7 +23,7 @@
 package fake
 
 import (
-	v2alpha1 "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/typed/replication/v2alpha1"
+	v2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned/typed/replication/v2alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

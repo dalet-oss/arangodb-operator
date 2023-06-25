@@ -25,7 +25,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 )
 
 type Collector interface {

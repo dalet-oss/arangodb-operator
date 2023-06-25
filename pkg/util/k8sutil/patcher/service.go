@@ -28,9 +28,9 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/deployment/patch"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	v1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/service/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/patch"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	v1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/service/v1"
 )
 
 type ServicePatch func(in *core.Service) []patch.Item

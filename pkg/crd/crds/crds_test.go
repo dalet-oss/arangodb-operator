@@ -25,11 +25,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/apps"
-	"github.com/arangodb/kube-arangodb/pkg/apis/backup"
-	"github.com/arangodb/kube-arangodb/pkg/apis/deployment"
-	"github.com/arangodb/kube-arangodb/pkg/apis/replication"
-	"github.com/arangodb/kube-arangodb/pkg/apis/storage"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/apps"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/backup"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/deployment"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/replication"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/storage"
 )
 
 func ensureCRDCompliance(t *testing.T, name string, def Definition) {

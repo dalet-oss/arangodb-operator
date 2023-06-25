@@ -25,10 +25,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner"
-	"github.com/arangodb/kube-arangodb/pkg/storage/provisioner/client"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner"
+	"github.com/dalet-oss/arangodb-operator/pkg/storage/provisioner/client"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 type Clients map[string]provisioner.API

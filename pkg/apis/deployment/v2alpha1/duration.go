@@ -23,7 +23,7 @@ package v2alpha1
 import (
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // Duration is a period of time, specified in go time.Duration format.

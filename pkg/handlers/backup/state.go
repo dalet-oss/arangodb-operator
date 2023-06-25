@@ -21,8 +21,8 @@
 package backup
 
 import (
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	"github.com/arangodb/kube-arangodb/pkg/handlers/backup/state"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/handlers/backup/state"
 )
 
 type stateHolder func(handler *handler, backup *backupApi.ArangoBackup) (*backupApi.ArangoBackupStatus, error)

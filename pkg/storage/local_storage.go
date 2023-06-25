@@ -31,15 +31,15 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/record"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
-	"github.com/arangodb/kube-arangodb/pkg/util/kclient"
-	"github.com/arangodb/kube-arangodb/pkg/util/retry"
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
-	"github.com/arangodb/kube-arangodb/pkg/util/trigger"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/storage/v1alpha"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/kclient"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/retry"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/trigger"
 )
 
 var logger = logging.Global().RegisterAndGetLogger("deployment-storage", logging.Info)

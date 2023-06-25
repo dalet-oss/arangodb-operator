@@ -28,10 +28,10 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/features"
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/features"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 const (

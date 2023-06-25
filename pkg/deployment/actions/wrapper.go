@@ -20,7 +20,7 @@
 
 package actions
 
-import api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
+import api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
 
 func NewAction(actionType api.ActionType, group api.ServerGroup, member api.MemberStatus, reason ...string) api.Action {
 	return actionWrap(api.NewAction(actionType, group, member.ID, reason...), &member, actionWrapMemberUID)

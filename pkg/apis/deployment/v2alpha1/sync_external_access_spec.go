@@ -25,8 +25,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/shared"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/shared"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 // SyncExternalAccessSpec holds configuration for the external access provided for the sync deployment.

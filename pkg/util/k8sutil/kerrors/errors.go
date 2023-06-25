@@ -23,7 +23,7 @@ package kerrors
 import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func isError(err error, precondition func(err error) bool) bool {

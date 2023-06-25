@@ -25,7 +25,7 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/strings"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/strings"
 )
 
 type License string

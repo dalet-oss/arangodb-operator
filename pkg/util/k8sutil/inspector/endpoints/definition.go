@@ -21,11 +21,11 @@
 package endpoints
 
 import (
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/anonymous"
-	v1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/endpoints/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/gvk"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/refresh"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/version"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/anonymous"
+	v1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/endpoints/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/gvk"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/refresh"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/version"
 )
 
 type Inspector interface {

@@ -23,12 +23,12 @@ package reconcile
 import (
 	"context"
 
-	backupApi "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/acs/sutil"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/member"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/reconciler"
-	"github.com/arangodb/kube-arangodb/pkg/util/arangod/conn"
+	backupApi "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/acs/sutil"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/member"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/reconciler"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/arangod/conn"
 )
 
 type CreateMemberMod func(s *api.DeploymentStatus, g api.ServerGroup, m *api.MemberStatus) error

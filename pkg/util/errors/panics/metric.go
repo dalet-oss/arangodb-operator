@@ -23,10 +23,10 @@ package panics
 import (
 	"sync"
 
-	"github.com/arangodb/kube-arangodb/pkg/generated/metric_descriptions"
-	"github.com/arangodb/kube-arangodb/pkg/logging"
-	"github.com/arangodb/kube-arangodb/pkg/metrics/collector"
-	"github.com/arangodb/kube-arangodb/pkg/util/metrics"
+	"github.com/dalet-oss/arangodb-operator/pkg/generated/metric_descriptions"
+	"github.com/dalet-oss/arangodb-operator/pkg/logging"
+	"github.com/dalet-oss/arangodb-operator/pkg/metrics/collector"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 )
 
 func init() {

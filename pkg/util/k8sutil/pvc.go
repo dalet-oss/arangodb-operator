@@ -27,10 +27,10 @@ import (
 	core "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/constants"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	persistentvolumeclaimv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/persistentvolumeclaim/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	persistentvolumeclaimv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/persistentvolumeclaim/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
 )
 
 // IsPersistentVolumeClaimMarkedForDeletion returns true if the pvc has been marked for deletion.

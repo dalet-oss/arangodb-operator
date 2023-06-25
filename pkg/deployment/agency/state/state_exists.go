@@ -23,7 +23,7 @@ package state
 import (
 	"crypto/sha256"
 
-	"github.com/arangodb/kube-arangodb/pkg/util"
+	"github.com/dalet-oss/arangodb-operator/pkg/util"
 )
 
 type Exists []byte

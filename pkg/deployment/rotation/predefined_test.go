@@ -28,9 +28,9 @@ import (
 	"github.com/stretchr/testify/require"
 	core "k8s.io/api/core/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/deployment/resources"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/deployment/resources"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
 )
 
 func init() {

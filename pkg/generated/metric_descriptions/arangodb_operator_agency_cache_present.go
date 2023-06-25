@@ -20,7 +20,7 @@
 
 package metric_descriptions
 
-import "github.com/arangodb/kube-arangodb/pkg/util/metrics"
+import "github.com/dalet-oss/arangodb-operator/pkg/util/metrics"
 
 var (
 	arangodbOperatorAgencyCachePresent = metrics.NewDescription("arangodb_operator_agency_cache_present", "Determines if local agency cache is present", []string{`namespace`, `name`}, nil)

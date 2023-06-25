@@ -36,11 +36,11 @@ import (
 
 	"github.com/arangodb-helper/go-certificates"
 
-	"github.com/arangodb/kube-arangodb/dashboard"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	operatorHTTP "github.com/arangodb/kube-arangodb/pkg/util/http"
-	"github.com/arangodb/kube-arangodb/pkg/util/probe"
-	"github.com/arangodb/kube-arangodb/pkg/version"
+	"github.com/dalet-oss/arangodb-operator/dashboard"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	operatorHTTP "github.com/dalet-oss/arangodb-operator/pkg/util/http"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/probe"
+	"github.com/dalet-oss/arangodb-operator/pkg/version"
 )
 
 // Config settings for the Server

@@ -21,11 +21,11 @@
 package inspector
 
 import (
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	arangoclustersynchronizationv1 "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/arangoclustersynchronization/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/definitions"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/mods"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	arangoclustersynchronizationv1 "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/arangoclustersynchronization/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/definitions"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/mods"
 )
 
 func (i *inspectorState) ArangoClusterSynchronizationModInterface() mods.ArangoClusterSynchronizationMods {

@@ -27,8 +27,8 @@ import (
 
 	"github.com/arangodb/go-driver"
 
-	"github.com/arangodb/kube-arangodb/pkg/crd/crds"
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/crd/crds"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 const Version = "arangodb.com/version"

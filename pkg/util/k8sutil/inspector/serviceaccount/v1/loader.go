@@ -23,7 +23,7 @@ package v1
 import (
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/gvk"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/gvk"
 )
 
 type Inspector interface {

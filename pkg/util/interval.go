@@ -23,7 +23,7 @@ package util
 import (
 	"time"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/timer"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/timer"
 )
 
 // Interval is a specialization of Duration so we can add some

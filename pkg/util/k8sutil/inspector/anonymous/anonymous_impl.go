@@ -27,7 +27,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/generic"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/generic"
 )
 
 func NewAnonymous[S meta.Object](gvk schema.GroupVersionKind, get generic.ReadClient[S], mod generic.ModStatusClient[S]) Interface {

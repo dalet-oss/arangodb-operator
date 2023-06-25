@@ -23,13 +23,13 @@
 package fake
 
 import (
-	appsv1 "github.com/arangodb/kube-arangodb/pkg/apis/apps/v1"
-	backupv1 "github.com/arangodb/kube-arangodb/pkg/apis/backup/v1"
-	databasev1 "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	databasev2alpha1 "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v2alpha1"
-	replicationv1 "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1"
-	replicationv2alpha1 "github.com/arangodb/kube-arangodb/pkg/apis/replication/v2alpha1"
-	storagev1alpha "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
+	appsv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/apps/v1"
+	backupv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/backup/v1"
+	databasev1 "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	databasev2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v2alpha1"
+	replicationv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v1"
+	replicationv2alpha1 "github.com/dalet-oss/arangodb-operator/pkg/apis/replication/v2alpha1"
+	storagev1alpha "github.com/dalet-oss/arangodb-operator/pkg/apis/storage/v1alpha"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

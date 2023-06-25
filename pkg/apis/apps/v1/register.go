@@ -25,7 +25,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/apps"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/apps"
 )
 
 const (

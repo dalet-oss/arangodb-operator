@@ -34,8 +34,8 @@ import (
 	"k8s.io/client-go/discovery/fake"
 	kubernetesFake "k8s.io/client-go/kubernetes/fake"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	versionedFake "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/fake"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	versionedFake "github.com/dalet-oss/arangodb-operator/pkg/generated/clientset/versioned/fake"
 )
 
 func NewFakeClient() Client {

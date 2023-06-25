@@ -23,7 +23,7 @@ package storage
 import (
 	core "k8s.io/api/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/server"
+	"github.com/dalet-oss/arangodb-operator/pkg/server"
 )
 
 type serverVolume core.PersistentVolume

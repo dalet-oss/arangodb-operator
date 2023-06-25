@@ -24,7 +24,7 @@ import (
 	batch "k8s.io/api/batch/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/apis/apps"
+	"github.com/dalet-oss/arangodb-operator/pkg/apis/apps"
 )
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object

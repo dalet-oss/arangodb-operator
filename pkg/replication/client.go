@@ -24,7 +24,7 @@ import (
 	"github.com/arangodb/arangosync-client/client"
 	"github.com/arangodb/arangosync-client/tasks"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
 )
 
 func GetSyncServerClient(clientCache *client.ClientCache, token string, source client.Endpoint) (client.API, error) {

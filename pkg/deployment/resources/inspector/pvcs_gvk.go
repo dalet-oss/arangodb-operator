@@ -23,7 +23,7 @@ package inspector
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/constants"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/constants"
 )
 
 func (p *persistentVolumeClaimsInspectorV1) GroupVersionKind() schema.GroupVersionKind {

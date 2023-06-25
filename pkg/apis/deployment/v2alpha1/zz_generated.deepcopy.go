@@ -28,7 +28,7 @@ package v2alpha1
 import (
 	time "time"
 
-	sharedv1 "github.com/arangodb/kube-arangodb/pkg/apis/shared/v1"
+	sharedv1 "github.com/dalet-oss/arangodb-operator/pkg/apis/shared/v1"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"

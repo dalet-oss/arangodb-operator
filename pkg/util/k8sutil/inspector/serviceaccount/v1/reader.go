@@ -27,7 +27,7 @@ import (
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/anonymous"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/anonymous"
 )
 
 // ModInterface has methods to work with ServiceAccount resources only for creation

@@ -25,11 +25,11 @@ import (
 
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	api "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/arangomember"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/mods"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/refresh"
+	api "github.com/dalet-oss/arangodb-operator/pkg/apis/deployment/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/arangomember"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/mods"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/refresh"
 )
 
 type ArangoMemberUpdateInterface interface {

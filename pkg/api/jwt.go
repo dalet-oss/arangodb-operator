@@ -29,11 +29,11 @@ import (
 	jg "github.com/golang-jwt/jwt"
 	typedCore "k8s.io/client-go/kubernetes/typed/core/v1"
 
-	"github.com/arangodb/kube-arangodb/pkg/util/errors"
-	"github.com/arangodb/kube-arangodb/pkg/util/globals"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil"
-	secret "github.com/arangodb/kube-arangodb/pkg/util/k8sutil/inspector/secret/v1"
-	"github.com/arangodb/kube-arangodb/pkg/util/k8sutil/kerrors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/errors"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/globals"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil"
+	secret "github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/inspector/secret/v1"
+	"github.com/dalet-oss/arangodb-operator/pkg/util/k8sutil/kerrors"
 )
 
 // ensureJWT ensure that JWT signing key exists or creates a new one.
