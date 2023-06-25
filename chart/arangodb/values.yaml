@@ -1,7 +1,7 @@
 operator:
-  image: arangodb/kube-arangodb:1.2.30
-  imagePullPolicy: IfNotPresent
-  imagePullSecrets: []
+  image: registry.services.ooflex.net/infrastructure/kube-arangodb:1.2.4dlv
+  imagePullPolicy: Always
+  imagePullSecrets: ["registry.services.ooflex.net-infrastructure"]
   scope: cluster
   localInstall: true
   architectures:
