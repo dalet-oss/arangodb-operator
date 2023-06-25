@@ -1,5 +1,17 @@
 # Maintainer Instructions
 
+## Dalet
+
+Run this in order to use your code changes instead of public repo code
+```bash
+find . -type f -name '*.go' -exec sed -i '' 's/github\.com\/arangodb\/kube-arangodb/github\.com\/dalet-oss\/arangodb-operator/g' {} +
+```
+Do this to build image
+
+```bash
+DOCKERNAMESPACE=registry.services.ooflex.net/infrastructure IMAGETAG=1.2.4dlv DEBUG=true make docker
+```
+
 ## Before
 
 To run templating models HELM needs to be installed. We are supporting HELM 2.14+
